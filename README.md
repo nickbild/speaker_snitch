@@ -26,6 +26,8 @@ For example:
 
 `sudo tcpdump -U -i wlan0 host 192.168.1.196 | stdbuf -o0 python3 snitch.py`
 
+The Arduino devices are controlled by [this sketch](https://github.com/nickbild/speaker_snitch/tree/main/speaker_snitch_alert).
+
 ## Media
 
 Speaker Snitch, top:
