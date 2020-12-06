@@ -16,6 +16,16 @@ A single Raspberry Pi can trigger alerts on a number of Speaker Snitch devices a
 <img src="https://raw.githubusercontent.com/nickbild/speaker_snitch/main/media/speaker_snitch_setup.jpg">
 </p>
 
+## Use
+
+Packet parsing and control of the Speaker Snitch devices is handled by a simple [Python script](https://github.com/nickbild/speaker_snitch/blob/main/snitch.py).  From the Raspberry Pi, the script is launched with:
+
+`sudo tcpdump -U -i wlan0 host [SPEAKER IP ADDRESS] | stdbuf -o0 python3 snitch.py`
+
+For example:
+
+`sudo tcpdump -U -i wlan0 host 192.168.1.196 | stdbuf -o0 python3 snitch.py`
+
 ## Media
 
 Speaker Snitch, top:
