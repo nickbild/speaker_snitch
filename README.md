@@ -12,7 +12,9 @@ A Raspberry Pi computer promiscuously sniffs packets on the local network.  A Py
 
 A single Raspberry Pi can trigger alerts on a number of Speaker Snitch devices all throughout your home.
 
-![Snitch Setup](https://raw.githubusercontent.com/nickbild/speaker_snitch/main/media/speaker_snitch_setup.jpg)
+<p align="center">
+<img src="https://raw.githubusercontent.com/nickbild/speaker_snitch/main/media/speaker_snitch_setup.jpg">
+</p>
 
 ## Media
 
