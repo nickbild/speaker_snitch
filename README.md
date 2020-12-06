@@ -8,6 +8,10 @@ Speaker Snitch can give an absolute answer to this question by sniffing local ne
 
 ## How It Works
 
+A Raspberry Pi computer promiscuously sniffs packets on the local network.  A Python script parses these packets, looking for any communication between the smart speaker and the vendor's cloud service.  When detected, an API endpoint on an Arduino Nano 33 IoT microcontroller development board is accessed.  This causes an LED attached to the Arduino to flash, thus alerting you to a speaker sending data to the vendor.
+
+A single Raspberry Pi can trigger alerts on a number of Speaker Snitch devices all throughout your home.
+
 ## Media
 
 Speaker Snitch, top:
