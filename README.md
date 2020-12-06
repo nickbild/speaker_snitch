@@ -1,5 +1,7 @@
 # Speaker Snitch
 
+![Snitch](https://raw.githubusercontent.com/nickbild/speaker_snitch/main/media/snitch_near_google_home.png)
+
 ## How It Works
 
 ## Media
