@@ -30,6 +30,8 @@ The Arduino devices are controlled by [this sketch](https://github.com/nickbild/
 
 ## Media
 
+YouTube: https://www.youtube.com/watch?v=8SCS7iIHqxg
+
 Speaker Snitch, top:
 ![Snitch](https://raw.githubusercontent.com/nickbild/speaker_snitch/main/media/snitch_top_sm.jpg)
 
