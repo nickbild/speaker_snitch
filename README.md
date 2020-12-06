@@ -1,5 +1,9 @@
 # Speaker Snitch
 
+How can you *really* know when your smart speaker is listening and sending data to the cloud?  There have been documented cases in which up to a minute of speech has been transferred to the cloud without a wake-word having been spoken.
+
+Speaker Snitch can give an absolute answer to this question by sniffing local network traffic and flashing a light sitting next to the speaker any time there is traffic between the speaker and the vendor's cloud service.
+
 ![Snitch](https://raw.githubusercontent.com/nickbild/speaker_snitch/main/media/snitch_near_google_home.png)
 
 ## How It Works
